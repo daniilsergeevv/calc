@@ -96,8 +96,7 @@ func main() {
 
 	// Обрезка результата до 40 символов
 	if len(result) > 40 {
-		result = result[:40] + "..."
+		result = result[:41] + "..."
 	}
-
 	fmt.Printf(result)
 }
